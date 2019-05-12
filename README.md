@@ -1,4 +1,4 @@
-# European-football-predictor
+# European-Football-Predictor
 
 ## DESCRIPTION
 ### A software bundle that uses various Machine Learning techniques to predict the outcome of Soccer Matches based on the performance ratings of the players on each team
