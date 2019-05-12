@@ -10,6 +10,10 @@
 
 
 ## EXECUTION INSTRUCTIONS
+
+### Install dependencies by running
+```pip install -r requirements.txt```
+
 ### Simply run 
 ```python <file_name>``` 
 ### To execute the corresponding Machine Learning model. This assumes 'database.sqlite' from the referenced link is placed in the same directory.
