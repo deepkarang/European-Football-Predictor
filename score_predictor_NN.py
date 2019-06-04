@@ -212,9 +212,9 @@ def train_model(features, labels):
     model.add(Dense(16,kernel_initializer='normal'))
     model.add(LeakyReLU(alpha=0.05))
     model.add(Dense(labels.shape[1], kernel_initializer='normal', activation='softmax'))
-    optimizer = Adam(lr=0.000001)
+    opt = Adam(lr=0.000001)
     #Compile model
-    model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
+    model.compile(loss='categorical_crossentropy', optimizer=opt, metrics=['accuracy'])
     #Print out summary of ANN structure
     model.summary()
     #Train model
